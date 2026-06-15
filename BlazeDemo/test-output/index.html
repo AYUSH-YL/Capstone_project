@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" class="navigator-link">
+              <span class="suite-name border-passed">BlazeDemo Booking Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace\BlazeDemo\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BlazeDemo_Booking_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" class="hide-methods passed suite-BlazeDemo_Booking_Suite"> (hide)</a> <!-- hide-methods passed suite-BlazeDemo_Booking_Suite -->
+                      <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" class="show-methods passed suite-BlazeDemo_Booking_Suite"> (show)</a> <!-- show-methods passed suite-BlazeDemo_Booking_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BlazeDemo_Booking_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step2_searchFlights">step2_searchFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step2_searchFlights">step2_searchFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step2_searchFlights">step2_searchFlights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step3_validateAndSelectFlight">step3_validateAndSelectFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step3_validateAndSelectFlight">step3_validateAndSelectFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step3_validateAndSelectFlight">step3_validateAndSelectFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step4_fillPassengerFormAndBook">step4_fillPassengerFormAndBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step4_fillPassengerFormAndBook">step4_fillPassengerFormAndBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step4_fillPassengerFormAndBook">step4_fillPassengerFormAndBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step5_validateConfirmationReceipt">step5_validateConfirmationReceipt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step5_validateConfirmationReceipt">step5_validateConfirmationReceipt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.BlazeDemoTest" class="method navigator-link" hash-for-method="step5_validateConfirmationReceipt">step5_validateConfirmationReceipt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BlazeDemo_Booking_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="validateBrokenPortalGateways">validateBrokenPortalGateways</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BlazeDemo_Booking_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BlazeDemo_Booking_Suite" class="panel BlazeDemo_Booking_Suite">
+          <div class="suite-BlazeDemo_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.BlazeDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_searchFlights">
+                  </a> <!-- step2_searchFlights -->
+                  <span class="method-name">step2_searchFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_searchFlights">
+                  </a> <!-- step2_searchFlights -->
+                  <span class="method-name">step2_searchFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_searchFlights">
+                  </a> <!-- step2_searchFlights -->
+                  <span class="method-name">step2_searchFlights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_validateAndSelectFlight">
+                  </a> <!-- step3_validateAndSelectFlight -->
+                  <span class="method-name">step3_validateAndSelectFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_validateAndSelectFlight">
+                  </a> <!-- step3_validateAndSelectFlight -->
+                  <span class="method-name">step3_validateAndSelectFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_validateAndSelectFlight">
+                  </a> <!-- step3_validateAndSelectFlight -->
+                  <span class="method-name">step3_validateAndSelectFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_fillPassengerFormAndBook">
+                  </a> <!-- step4_fillPassengerFormAndBook -->
+                  <span class="method-name">step4_fillPassengerFormAndBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_fillPassengerFormAndBook">
+                  </a> <!-- step4_fillPassengerFormAndBook -->
+                  <span class="method-name">step4_fillPassengerFormAndBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_fillPassengerFormAndBook">
+                  </a> <!-- step4_fillPassengerFormAndBook -->
+                  <span class="method-name">step4_fillPassengerFormAndBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_validateConfirmationReceipt">
+                  </a> <!-- step5_validateConfirmationReceipt -->
+                  <span class="method-name">step5_validateConfirmationReceipt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_validateConfirmationReceipt">
+                  </a> <!-- step5_validateConfirmationReceipt -->
+                  <span class="method-name">step5_validateConfirmationReceipt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_validateConfirmationReceipt">
+                  </a> <!-- step5_validateConfirmationReceipt -->
+                  <span class="method-name">step5_validateConfirmationReceipt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemo_Booking_Suite-class-passed -->
+          <div class="suite-BlazeDemo_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBrokenPortalGateways">
+                  </a> <!-- validateBrokenPortalGateways -->
+                  <span class="method-name">validateBrokenPortalGateways</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemo_Booking_Suite-class-passed -->
+        </div> <!-- panel BlazeDemo_Booking_Suite -->
+        <div panel-name="test-xml-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\BlazeDemo\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BlazeDemo Booking Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End To End Flight Booking Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;end-to-end&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testcases.BlazeDemoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End To End Flight Booking Test --&gt;
+&lt;/suite&gt; &lt;!-- BlazeDemo Booking Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BlazeDemo Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End To End Flight Booking Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BlazeDemo Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">end-to-end</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">step2_searchFlights</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step3_validateAndSelectFlight</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step4_fillPassengerFormAndBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step5_validateConfirmationReceipt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateBrokenPortalGateways</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BlazeDemo Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BlazeDemo_Booking_Suite');
+function tableData_BlazeDemo_Booking_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'step4_fillPassengerFormAndBook')
+data.setCell(0, 2, 'testcases.BlazeDemoTest')
+data.setCell(0, 3, 13721);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'step4_fillPassengerFormAndBook')
+data.setCell(1, 2, 'testcases.BlazeDemoTest')
+data.setCell(1, 3, 12373);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateBrokenPortalGateways')
+data.setCell(2, 2, 'testcases.LoginTest')
+data.setCell(2, 3, 8851);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'step2_searchFlights')
+data.setCell(3, 2, 'testcases.BlazeDemoTest')
+data.setCell(3, 3, 8089);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'step4_fillPassengerFormAndBook')
+data.setCell(4, 2, 'testcases.BlazeDemoTest')
+data.setCell(4, 3, 4756);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'step2_searchFlights')
+data.setCell(5, 2, 'testcases.BlazeDemoTest')
+data.setCell(5, 3, 4304);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'step2_searchFlights')
+data.setCell(6, 2, 'testcases.BlazeDemoTest')
+data.setCell(6, 3, 2741);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'step3_validateAndSelectFlight')
+data.setCell(7, 2, 'testcases.BlazeDemoTest')
+data.setCell(7, 3, 2099);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'step3_validateAndSelectFlight')
+data.setCell(8, 2, 'testcases.BlazeDemoTest')
+data.setCell(8, 3, 1664);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'step3_validateAndSelectFlight')
+data.setCell(9, 2, 'testcases.BlazeDemoTest')
+data.setCell(9, 3, 1484);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'step5_validateConfirmationReceipt')
+data.setCell(10, 2, 'testcases.BlazeDemoTest')
+data.setCell(10, 3, 306);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'step5_validateConfirmationReceipt')
+data.setCell(11, 2, 'testcases.BlazeDemoTest')
+data.setCell(11, 3, 232);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'step5_validateConfirmationReceipt')
+data.setCell(12, 2, 'testcases.BlazeDemoTest')
+data.setCell(12, 3, 210);
+window.suiteTableData['BlazeDemo_Booking_Suite']= { tableData: data, tableDiv: 'times-div-BlazeDemo_Booking_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-BlazeDemo_Booking_Suite">
+              </div> <!-- times-div-BlazeDemo_Booking_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BlazeDemo Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BlazeDemo_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateBrokenPortalGateways</span>
+                <span class="method-start">6290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15176 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.BlazeDemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15727 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">step2_searchFlights</span>
+                <span class="method-start">18609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22919 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">step2_searchFlights</span>
+                <span class="method-start">26978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29723 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">step2_searchFlights</span>
+                <span class="method-start">33381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_validateAndSelectFlight</span>
+                <span class="method-start">41523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_validateAndSelectFlight</span>
+                <span class="method-start">43198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_validateAndSelectFlight</span>
+                <span class="method-start">44696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_fillPassengerFormAndBook</span>
+                <span class="method-start">46830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_fillPassengerFormAndBook</span>
+                <span class="method-start">51610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_fillPassengerFormAndBook</span>
+                <span class="method-start">65338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step5_validateConfirmationReceipt</span>
+                <span class="method-start">77716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78025 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">step5_validateConfirmationReceipt</span>
+                <span class="method-start">78690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78924 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">step5_validateConfirmationReceipt</span>
+                <span class="method-start">79489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79702 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
